@@ -1,0 +1,75 @@
+* {
+    background-color: rgb(169, 191, 192);
+}
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.im1{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+.im2{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+.im3{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.im4{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+.im5{
+    width: 200px;
+    height: 200px;
+    background-color:mediumturquoise;
+}
+
+.container {
+    position: absolute;
+    text-align: center;
+    top: 200px;
+    left: 300px;
+}
+.slider {
+    background: transparent;
+    box-sizing: border-box;
+    border: black solid 3px;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+.strip {
+    display: flex;
+    height: 200px;
+    width: 1000px;
+    position: relative;
+    left: 0;
+    transition: 0.2s;
+}
+.actions {
+    margin-top: 10px;
+}
+.dots{
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    margin-top: 10px;
+}
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(118, 118, 126);
+}
+.active {
+    background-color: brown;
+}
+
